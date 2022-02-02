@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AdvanceShoulderActivity">
+    <TextView
+        android:id="@+id/textnameshoulder2"
+        android:layout_width="409dp"
+        android:layout_height="74dp"
+        android:fontFamily="@font/new_rocker"
+        android:gravity="center"
+        android:text=" 1) cable cross over revers fly shoulders "
+        android:textColor="#E91E63"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/pic0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/pic0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="1"
+        android:src="@drawable/cable_cross_over_revers_fly_shoulders"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textnameshoulder2" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/pic1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:src="@drawable/cable_forward_raise_shoulders"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textnameshoulder2" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/pic2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:src="@drawable/cable_rear_delt_row_with_rope_shoulders"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textnameshoulder2" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/pic3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:src="@drawable/lever_seated_reverse_fly_parallel_grip_shoulder"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textnameshoulder2" />
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pic0">
+
+        <ImageButton
+            android:id="@+id/adprev44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/begin"
+            android:onClick="adprev44"
+            app:srcCompat="@android:drawable/ic_media_previous" />
+
+        <Button
+            android:id="@+id/buttonShoulder4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:onClick="openadvanceShouldrActivity23"
+            android:text="WORKOUT" />
+
+        <ImageButton
+            android:id="@+id/adnext44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/bic"
+            android:onClick="adnext44"
+            app:srcCompat="@android:drawable/ic_media_next" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

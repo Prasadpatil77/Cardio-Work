@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aladin</item>
+        <item>@font/alex_brush</item>
+        <item>@font/aref_ruqaa</item>
+        <item>@font/diplomata</item>
+        <item>@font/dr_sugiyama</item>
+        <item>@font/eagle_lake</item>
+        <item>@font/fredericka_the_great</item>
+        <item>@font/im_fell_great_primer_sc</item>
+        <item>@font/jacques_francois_shadow</item>
+        <item>@font/macondo_swash_caps</item>
+        <item>@font/new_rocker</item>
+        <item>@font/rochester</item>
+    </array>
+</resources>

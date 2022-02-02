@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.prashmuscles">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PrashMuscles">
+        <activity
+            android:name=".AdvanceTricepsActivity"
+            android:label="Advance Triceps Workout"
+            android:parentActivityName=".tricepActivity" />
+        <activity
+            android:name=".AdvanceShoulderActivity"
+            android:label="Advance Shoulder Workout"
+            android:parentActivityName=".AdvanceShoulderActivity" />
+        <activity
+            android:name=".LegsAdvanceActivity"
+            android:label="Advance Legs Workout"
+            android:parentActivityName=".LegsAdvanceActivity" />
+        <activity
+            android:name=".HippAdvanceActivity"
+            android:label="Advance Hipps Workout"
+            android:parentActivityName=".HippsActivity" />
+        <activity
+            android:name=".ChestAdvanceActivity"
+            android:label="Advance Chest Workout"
+            android:parentActivityName=".ChestActivity" />
+        <activity
+            android:name=".BicepsAdvanceActivity"
+            android:label="Advance Biceps Workout"
+            android:parentActivityName=".BicepsActivity" />
+        <activity
+            android:name=".AdvanceBackActivity"
+            android:label="Advance Back Workout"
+            android:parentActivityName=".BackActivity" />
+        <activity
+            android:name=".AbsAdvanceActivity"
+            android:label="Advance Abs Workout"
+            android:parentActivityName=".AbsActivity" />
+        <activity
+            android:name=".ForearmActivity"
+            android:label="Forearm Workout"
+            android:parentActivityName=".InfoActivity" />
+        <activity
+            android:name=".InfoActivity"
+            android:theme="@style/Theme.PrashMuscles.NoActionBar" />
+        <activity
+            android:name=".tricepActivity"
+            android:label="Triceps Workout"
+            android:parentActivityName=".InfoActivity" />
+        <activity
+            android:name=".ShoulderActivity"
+            android:label="Shoulder Workout"
+            android:parentActivityName=".InfoActivity" />
+        <activity
+            android:name=".LegsActivity"
+            android:label="Legs Workout"
+            android:parentActivityName=".InfoActivity" />
+        <activity
+            android:name=".HippsActivity"
+            android:label="Hipps Workout"
+            android:parentActivityName=".InfoActivity" />
+        <activity
+            android:name=".ChestActivity"
+            android:label="Chest Workout"
+            android:parentActivityName=".InfoActivity" />
+        <activity
+            android:name=".BicepsActivity"
+            android:label="Biceps Workout"
+            android:parentActivityName=".InfoActivity" />
+        <activity
+            android:name=".BackActivity"
+            android:label="Back Workout"
+            android:parentActivityName=".InfoActivity" />
+        <activity
+            android:name=".AbsActivity"
+            android:label="Abs Workout"
+            android:parentActivityName=".InfoActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.PrashMuscles.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
